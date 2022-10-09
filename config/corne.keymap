@@ -38,5 +38,14 @@
                                              &kp LGUI    &trans   &kp SPACE            &kp RET     &trans         &kp RALT
             >;
         };
+
+        gaming_layer {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
     };
 };
