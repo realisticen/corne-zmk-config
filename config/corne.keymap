@@ -32,17 +32,6 @@
                 <&kp>,
                 <&kp>;
         };
-        qhm: quick_homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
-            flavor = "tap-preferred";
-            bindings =
-                <&kp>,
-                <&kp>;
-        };
     };
 
     keymap {
@@ -71,7 +60,7 @@
    &kp ESC  &kp EXCL             &kp AT      &kp HASH        &kp DLLR   &kp PRCNT          &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR   &kp BSPC
  &kp LCTRL     &none           &kp EXCL         &none           &none      &tog 3          &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp PIPE  &kp GRAVE
     &trans   &kp F13  &kp C_VOLUME_DOWN  &kp C_VOL_UP        &kp C_PP  &kp C_NEXT          &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp BSLH  &kp TILDE
-                                             &kp LGUI  &kp LEFT_SHIFT   &qhm ENTER SPACE            &kp RET     &trans         &kp RALT
+                                             &kp LGUI  &kp LEFT_SHIFT   &kp ENTER          &kp RET     &trans         &kp RALT
             >;
         };
 
