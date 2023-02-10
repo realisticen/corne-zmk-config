@@ -23,7 +23,7 @@
         };
         shm: slow_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "SLOW_HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <500>;
             quick-tap-ms = <500>;
