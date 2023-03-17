@@ -45,12 +45,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        new_combo {
-            bindings = <&clog>;
-            key-positions = <1 10>;
-            timeout-ms = <40>;
-        };
     };
 
     macros {
