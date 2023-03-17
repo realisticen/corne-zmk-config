@@ -43,19 +43,6 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-    };
-
-    macros {
-        clog: clog {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp A &kp I &kp L &kp SPACE &kp MINUS &kp F &kp SPACE &kp FSLH &kp V &kp A &kp R &kp FSLH &kp L &kp O &kp G &kp FSLH &kp C &kp O &kp N &kp T &kp R &kp O &kp L &kp L &kp E &kp R &kp FSLH &kp C &kp O &kp N &kp T &kp R &kp O &kp L &kp L &kp E &kp R &kp DOT &kp L &kp O &kp G>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
