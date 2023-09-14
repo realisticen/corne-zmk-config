@@ -70,7 +70,7 @@
 
         symbols_layer {
             bindings = <
-&kp ESC    &kp SI_EXCL   &kp SI_AT          &kp SI_HASH   &kp SI_DLLR        &kp SI_PRCNT    &kp SI_CARET  &kp SI_AMPS   &kp SI_KP_MULTIPLY  &kp SI_LPAR  &kp SI_RPAR  &kp BSPC
+&kp ESC    &kp SI_EXCL   &kp SI_AT          &kp SI_HASH   &kp SI_DLLR        &kp SI_PRCNT    &kp SI_CARET  &kp SI_AMPS   &kp SI_MUL          &kp SI_LPAR  &kp SI_RPAR  &kp BSPC
 &kp LCTRL  &kp CAPSLOCK  &kp SI_EXCL        &kp RET       &kp PSCRN          &none           &kp SI_MINUS  &kp SI_EQUAL  &kp SI_LBKT         &kp SI_RBKT  &kp SI_PIPE  &kp SI_GRAVE
 &trans     &kp F13       &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PP           &tds            &kp SI_UNDER  &kp SI_PLUS   &kp SI_LBRC         &kp SI_RBRC  &kp SI_BSLH  &kp SI_TILDE
                                             &trans        &kp LEFT_SHIFT     &kp ENTER       &kp RET    &trans     &kp RALT
