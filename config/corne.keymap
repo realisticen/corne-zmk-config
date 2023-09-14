@@ -51,9 +51,9 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E     &kp R           &kp T                       &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F           &kp G                       &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&mo 2      &kp Z  &kp X  &kp C     &kp V           &kp B                       &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp TAB
+&kp ESC    &kp SI_Q  &kp SI_W  &kp SI_E     &kp SI_R           &kp SI_T                       &kp SI_Y    &kp SI_U  &kp SI_I      &kp SI_O    &kp SI_P     &kp BSPC
+&kp LCTRL  &kp SI_A  &kp SI_S  &kp SI_D     &kp SI_F           &kp SI_G                       &kp SI_H    &kp SI_J  &kp SI_K      &kp SI_L    &kp SI_SEMI  &kp SI_SQT
+&mo 2      &kp SI_Z  &kp SI_X  &kp SI_C     &kp SI_V           &kp SI_B                       &kp SI_N    &kp SI_M  &kp SI_COMMA  &kp SI_DOT  &kp SI_FSLH  &kp TAB
                          &kp LGUI  &kp LEFT_SHIFT  &shm LS(LA(LCTRL)) SPACE    &kp RET  &mo 1  &sk LALT
             >;
         };
@@ -69,10 +69,10 @@
 
         symbols_layer {
             bindings = <
-&kp ESC    &kp EXCL      &kp AT             &kp HASH      &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp CAPSLOCK  &kp EXCL           &kp RET       &kp PSCRN       &none        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE  &kp GRAVE
-&trans     &kp F13       &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PP        &tds         &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp BSLH  &kp TILDE
-                                            &trans        &kp LEFT_SHIFT  &kp ENTER    &kp RET    &trans     &kp RALT
+&kp ESC    &kp SI_EXCL   &kp SI_AT          &kp SI_HASH   &kp SI_DLLR        &kp SI_PRCNT    &kp SI_CARET  &kp SI_AMPS   &kp SI_KP_MULTIPLY  &kp SI_LPAR  &kp SI_RPAR  &kp BSPC
+&kp LCTRL  &kp CAPSLOCK  &kp SI_EXCL        &kp RET       &kp PSCRN          &none           &kp SI_MINUS  &kp SI_EQUAL  &kp SI_LBKT         &kp SI_RBKT  &kp SI_PIPE  &kp SI_GRAVE
+&trans     &kp F13       &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PP           &tds            &kp SI_UNDER  &kp SI_PLUS   &kp SI_LBRC         &kp SI_RBRC  &kp SI_BSLH  &kp SI_TILDE
+                                            &trans        &kp LEFT_SHIFT     &kp ENTER       &kp RET    &trans     &kp RALT
             >;
         };
 
