@@ -17,10 +17,9 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
             flavor = "tap-preferred";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
         };
+
         shm: slow_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "SLOW_HOMEROW_MODS";
@@ -28,22 +27,16 @@
             tapping-term-ms = <500>;
             quick-tap-ms = <500>;
             flavor = "tap-preferred";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
         };
+
         tds: tap_dance_next_prev {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_NEXT_PREV";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings =
-                <&kp C_NEXT>,
-                <&kp C_PREVIOUS>;
+            bindings = <&kp C_NEXT>, <&kp C_PREVIOUS>;
         };
-    };
-
-    macros {
     };
 
     keymap {
@@ -62,7 +55,7 @@
             bindings = <
 &kp ESC    &hm F1 N1     &hm F2 N2     &hm F3 N3     &hm F4 N4       &hm F5 N5    &hm F6 N6  &hm F7 N7      &hm F8 N8    &hm F9 N9  &hm F10 N0  &kp BSPC
 &kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none           &none        &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp F11     &kp DEL
-&mo 2      &none         &none         &none         &none           &none        &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp F12     &none
+&mo 2      &none         &bt BT_CLR    &none         &none           &none        &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp F12     &none
                                        &trans        &kp LEFT_SHIFT  &kp SPACE    &kp RET    &trans         &kp RALT
             >;
         };
