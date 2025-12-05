@@ -37,6 +37,18 @@
             tapping-term-ms = <200>;
             bindings = <&kp C_NEXT>, <&kp C_PREVIOUS>;
         };
+
+
+        # For bluetooth stuff, so I don't press by accident ;)
+        bt_hold: bt_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BT_HOLD";
+            #binding-cells = <2>;
+            tapping-term-ms = <1000>;
+            quick-tap-ms = <1000>;
+            flavor = "hold-preferred";
+            bindings = <&none>, <&bt BT_SEL 0>; /* default bindings don't matter if overridden in keymap */
+        };
     };
 
     keymap {
