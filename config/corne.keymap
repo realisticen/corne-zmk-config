@@ -38,8 +38,6 @@
             bindings = <&kp C_NEXT>, <&kp C_PREVIOUS>;
         };
 
-
-        # For bluetooth stuff, so I don't press by accident ;)
         bt_hold: bt_hold {
             compatible = "zmk,behavior-hold-tap";
             label = "BT_HOLD";
